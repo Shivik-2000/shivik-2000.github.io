@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vaishvik Kansara | Cybersecurity Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #020617;
+  color: #e2e8f0;
+}
+
+/* HERO */
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: radial-gradient(circle, #020617, #000);
+}
+
+header h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3.2rem;
+  letter-spacing: 2px;
+}
+
+header p {
+  color: #94a3b8;
+  max-width: 600px;
+}
+
+.btn {
+  margin-top: 25px;
+  padding: 12px 28px;
+  background: #00ffcc;
+  color: #000;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* TERMINAL EFFECT */
+.terminal {
+  margin-top: 20px;
+  font-family: monospace;
+  color: #00ffcc;
+}
+
+/* SECTIONS */
+section {
+  padding: 80px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+h2 {
+  font-family: 'Orbitron';
+  border-left: 4px solid #00ffcc;
+  padding-left: 10px;
+}
+
+.card {
+  background: #0f172a;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,255,204,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #00ffcc;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* SKILLS */
+.skills span {
+  display: inline-block;
+  margin: 6px;
+  padding: 6px 12px;
+  border: 1px solid #00ffcc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+/* EXPERIENCE */
+.timeline {
+  border-left: 2px solid #00ffcc;
+  padding-left: 20px;
+}
+
+.timeline div {
+  margin-bottom: 20px;
+}
+
+/* DASHBOARD */
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.metric {
+  background: #0f172a;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid rgba(0,255,204,0.1);
+}
+
+.metric h3 {
+  color: #00ffcc;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #94a3b8;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>VAISHVIK KANSARA</h1>
+  <p>SOC Analyst Aspirant | Threat Detection | Incident Response</p>
+  <div class="terminal">> monitoring threats... > analyzing logs... > securing systems...</div>
+  <a href="#projects" class="btn">Explore Portfolio</a>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <div class="card">
+    Cybersecurity enthusiast with real-world experience in monitoring systems, detecting anomalies, and analyzing threats. Strong foundation in networking and security tools, with a focus on SOC operations and incident response.
+  </div>
+</section>
+
+<section>
+  <h2>Security Dashboard</h2>
+  <div class="dashboard">
+    <div class="metric">
+      <h3>Tools Used</h3>
+      Wireshark, Nmap, Burp
+    </div>
+    <div class="metric">
+      <h3>Focus Area</h3>
+      SOC Operations
+    </div>
+    <div class="metric">
+      <h3>Learning</h3>
+      Threat Detection
+    </div>
+    <div class="metric">
+      <h3>Goal</h3>
+      Security Analyst
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div class="card skills">
+    <span>Wireshark</span>
+    <span>Nmap</span>
+    <span>Burp Suite</span>
+    <span>TCP/IP</span>
+    <span>DNS</span>
+    <span>SQL</span>
+    <span>OWASP Top 10</span>
+    <span>Threat Analysis</span>
+  </div>
+</section>
+
+<section>
+  <h2>Experience</h2>
+  <div class="timeline">
+    <div>
+      <strong>SEO Executive</strong><br>
+      Detected anomalies, monitored suspicious traffic
+    </div>
+    <div>
+      <strong>IT & Admin</strong><br>
+      Implemented security controls, monitored systems
+    </div>
+    <div>
+      <strong>Network Engineer</strong><br>
+      Secured networks and handled vulnerabilities
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>SOC Alert Investigation (Simulated)</h3>
+      <p><strong>Tools:</strong> Wireshark, Windows Logs, Nmap</p>
+      <p>
+        Simulated a SOC environment by analyzing security alerts and investigating suspicious login attempts.
+        Identified brute-force attack patterns through log analysis and correlated network traffic to detect anomalies.
+      </p>
+      <p><strong>Outcome:</strong> Detected unauthorized access attempts and documented incident response steps.</p>
+    </div>
+
+    <div class="card">
+      <h3>Threat Detection Analysis</h3>
+      <p>
+        Analyzed system and network logs to identify unusual patterns such as repeated login failures and abnormal traffic spikes.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Network Traffic Monitoring</h3>
+      <p>
+        Captured and inspected packets using Wireshark to detect suspicious communications and protocol anomalies.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Vulnerability Scanning</h3>
+      <p>
+        Performed scanning using Nmap and identified open ports, misconfigurations, and potential vulnerabilities.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <div class="card">
+    Email: vaishvik.kansara@gmail.com<br>
+    LinkedIn: linkedin.com/in/vaishvik-kansara-72830916b
+  </div>
+</section>
+
+<footer>
+  © 2026 | Built for Cybersecurity Careers
+</footer>
+
+</body>
+</html>
